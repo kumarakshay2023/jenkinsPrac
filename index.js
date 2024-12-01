@@ -5,6 +5,10 @@ app.get("/",(req,res)=>{
     res.send("hrlloev vorlfd");
 })
 
+app.get("/address",(req,res)=>{
+    res.send("Hiii");
+})
+
 
 
 
